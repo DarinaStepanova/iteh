@@ -11,8 +11,8 @@ public class Palindrome {
     //Реверс строки
     public static String reverseString(String strings) {
         String reverse = "";
-        for (int i = 0; i < strings.length(); i++) {
-            reverse += strings.charAt(strings.length()-i -1);
+        for (int i = strings.length()-1; i >= 0; i--) {
+            reverse += strings.charAt(i);
         }
         return reverse;
     }

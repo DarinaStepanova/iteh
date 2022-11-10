@@ -1,6 +1,6 @@
 import java.util.Scanner; // импорт библиотеки для получения данных из консоли
 
-public class Pract1 {
+public class Main {
     public static void main(String[] args) { // вывод в консоль всех функций
         System.out.println(remainder());
         System.out.println(triArea());
